@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3279A3071E9F6C950022DCC1 /* FZScanerCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3279A2FC1E9F6C950022DCC1 /* FZScanerCardViewController.m */; };
+		3279A3081E9F6C950022DCC1 /* FZScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3279A2FE1E9F6C950022DCC1 /* FZScanner.m */; };
+		3279A3091E9F6C950022DCC1 /* FZScannerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3279A3001E9F6C950022DCC1 /* FZScannerBorder.m */; };
+		3279A30A1E9F6C950022DCC1 /* FZScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3279A3021E9F6C950022DCC1 /* FZScannerController.m */; };
+		3279A30B1E9F6C950022DCC1 /* FZScannerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3279A3041E9F6C950022DCC1 /* FZScannerMaskView.m */; };
+		3279A30C1E9F6C950022DCC1 /* FZScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3279A3061E9F6C950022DCC1 /* FZScannerViewController.m */; };
+		3279A3121E9F6D3B0022DCC1 /* QRCodeScanLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3279A30D1E9F6D3B0022DCC1 /* QRCodeScanLine@2x.png */; };
+		3279A3131E9F6D3B0022DCC1 /* ScanQR1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3279A30E1E9F6D3B0022DCC1 /* ScanQR1@2x.png */; };
+		3279A3141E9F6D3B0022DCC1 /* ScanQR2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3279A30F1E9F6D3B0022DCC1 /* ScanQR2@2x.png */; };
+		3279A3151E9F6D3B0022DCC1 /* ScanQR3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3279A3101E9F6D3B0022DCC1 /* ScanQR3@2x.png */; };
+		3279A3161E9F6D3B0022DCC1 /* ScanQR4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3279A3111E9F6D3B0022DCC1 /* ScanQR4@2x.png */; };
+		3299D6371E569DE300601CD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3299D6361E569DE300601CD7 /* main.m */; };
+		3299D63A1E569DE300601CD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3299D6391E569DE300601CD7 /* AppDelegate.m */; };
+		3299D63D1E569DE300601CD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3299D63C1E569DE300601CD7 /* ViewController.m */; };
+		3299D6401E569DE300601CD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3299D63E1E569DE300601CD7 /* Main.storyboard */; };
+		3299D6421E569DE300601CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3299D6411E569DE300601CD7 /* Assets.xcassets */; };
+		3299D6451E569DE300601CD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3299D6431E569DE300601CD7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3279A2FB1E9F6C950022DCC1 /* FZScanerCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZScanerCardViewController.h; sourceTree = "<group>"; };
+		3279A2FC1E9F6C950022DCC1 /* FZScanerCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZScanerCardViewController.m; sourceTree = "<group>"; };
+		3279A2FD1E9F6C950022DCC1 /* FZScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZScanner.h; sourceTree = "<group>"; };
+		3279A2FE1E9F6C950022DCC1 /* FZScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZScanner.m; sourceTree = "<group>"; };
+		3279A2FF1E9F6C950022DCC1 /* FZScannerBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZScannerBorder.h; sourceTree = "<group>"; };
+		3279A3001E9F6C950022DCC1 /* FZScannerBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZScannerBorder.m; sourceTree = "<group>"; };
+		3279A3011E9F6C950022DCC1 /* FZScannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZScannerController.h; sourceTree = "<group>"; };
+		3279A3021E9F6C950022DCC1 /* FZScannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZScannerController.m; sourceTree = "<group>"; };
+		3279A3031E9F6C950022DCC1 /* FZScannerMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZScannerMaskView.h; sourceTree = "<group>"; };
+		3279A3041E9F6C950022DCC1 /* FZScannerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZScannerMaskView.m; sourceTree = "<group>"; };
+		3279A3051E9F6C950022DCC1 /* FZScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZScannerViewController.h; sourceTree = "<group>"; };
+		3279A3061E9F6C950022DCC1 /* FZScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZScannerViewController.m; sourceTree = "<group>"; };
+		3279A30D1E9F6D3B0022DCC1 /* QRCodeScanLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeScanLine@2x.png"; sourceTree = "<group>"; };
+		3279A30E1E9F6D3B0022DCC1 /* ScanQR1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR1@2x.png"; sourceTree = "<group>"; };
+		3279A30F1E9F6D3B0022DCC1 /* ScanQR2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR2@2x.png"; sourceTree = "<group>"; };
+		3279A3101E9F6D3B0022DCC1 /* ScanQR3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR3@2x.png"; sourceTree = "<group>"; };
+		3279A3111E9F6D3B0022DCC1 /* ScanQR4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR4@2x.png"; sourceTree = "<group>"; };
+		3299D6321E569DE300601CD7 /* APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3299D6361E569DE300601CD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3299D6381E569DE300601CD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3299D6391E569DE300601CD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3299D63B1E569DE300601CD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3299D63C1E569DE300601CD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3299D63F1E569DE300601CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3299D6411E569DE300601CD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3299D6441E569DE300601CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3299D6461E569DE300601CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3299D62F1E569DE300601CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3279A2FA1E9F6C950022DCC1 /* FZScanerCode */ = {
+			isa = PBXGroup;
+			children = (
+				3279A30D1E9F6D3B0022DCC1 /* QRCodeScanLine@2x.png */,
+				3279A30E1E9F6D3B0022DCC1 /* ScanQR1@2x.png */,
+				3279A30F1E9F6D3B0022DCC1 /* ScanQR2@2x.png */,
+				3279A3101E9F6D3B0022DCC1 /* ScanQR3@2x.png */,
+				3279A3111E9F6D3B0022DCC1 /* ScanQR4@2x.png */,
+				3279A2FB1E9F6C950022DCC1 /* FZScanerCardViewController.h */,
+				3279A2FC1E9F6C950022DCC1 /* FZScanerCardViewController.m */,
+				3279A2FD1E9F6C950022DCC1 /* FZScanner.h */,
+				3279A2FE1E9F6C950022DCC1 /* FZScanner.m */,
+				3279A2FF1E9F6C950022DCC1 /* FZScannerBorder.h */,
+				3279A3001E9F6C950022DCC1 /* FZScannerBorder.m */,
+				3279A3011E9F6C950022DCC1 /* FZScannerController.h */,
+				3279A3021E9F6C950022DCC1 /* FZScannerController.m */,
+				3279A3031E9F6C950022DCC1 /* FZScannerMaskView.h */,
+				3279A3041E9F6C950022DCC1 /* FZScannerMaskView.m */,
+				3279A3051E9F6C950022DCC1 /* FZScannerViewController.h */,
+				3279A3061E9F6C950022DCC1 /* FZScannerViewController.m */,
+			);
+			path = FZScanerCode;
+			sourceTree = SOURCE_ROOT;
+		};
+		3299D6291E569DE300601CD7 = {
+			isa = PBXGroup;
+			children = (
+				3299D6341E569DE300601CD7 /* APP */,
+				3299D6331E569DE300601CD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3299D6331E569DE300601CD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3299D6321E569DE300601CD7 /* APP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3299D6341E569DE300601CD7 /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				3279A2FA1E9F6C950022DCC1 /* FZScanerCode */,
+				3299D6381E569DE300601CD7 /* AppDelegate.h */,
+				3299D6391E569DE300601CD7 /* AppDelegate.m */,
+				3299D63B1E569DE300601CD7 /* ViewController.h */,
+				3299D63C1E569DE300601CD7 /* ViewController.m */,
+				3299D63E1E569DE300601CD7 /* Main.storyboard */,
+				3299D6411E569DE300601CD7 /* Assets.xcassets */,
+				3299D6431E569DE300601CD7 /* LaunchScreen.storyboard */,
+				3299D6461E569DE300601CD7 /* Info.plist */,
+				3299D6351E569DE300601CD7 /* Supporting Files */,
+			);
+			path = APP;
+			sourceTree = "<group>";
+		};
+		3299D6351E569DE300601CD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3299D6361E569DE300601CD7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3299D6311E569DE300601CD7 /* APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3299D6491E569DE300601CD7 /* Build configuration list for PBXNativeTarget "APP" */;
+			buildPhases = (
+				3299D62E1E569DE300601CD7 /* Sources */,
+				3299D62F1E569DE300601CD7 /* Frameworks */,
+				3299D6301E569DE300601CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APP;
+			productName = APP;
+			productReference = 3299D6321E569DE300601CD7 /* APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3299D62A1E569DE300601CD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = fang;
+				TargetAttributes = {
+					3299D6311E569DE300601CD7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8RKD57526R;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3299D62D1E569DE300601CD7 /* Build configuration list for PBXProject "APP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3299D6291E569DE300601CD7;
+			productRefGroup = 3299D6331E569DE300601CD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3299D6311E569DE300601CD7 /* APP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3299D6301E569DE300601CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3279A3131E9F6D3B0022DCC1 /* ScanQR1@2x.png in Resources */,
+				3279A3151E9F6D3B0022DCC1 /* ScanQR3@2x.png in Resources */,
+				3279A3141E9F6D3B0022DCC1 /* ScanQR2@2x.png in Resources */,
+				3299D6451E569DE300601CD7 /* LaunchScreen.storyboard in Resources */,
+				3279A3121E9F6D3B0022DCC1 /* QRCodeScanLine@2x.png in Resources */,
+				3299D6421E569DE300601CD7 /* Assets.xcassets in Resources */,
+				3299D6401E569DE300601CD7 /* Main.storyboard in Resources */,
+				3279A3161E9F6D3B0022DCC1 /* ScanQR4@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3299D62E1E569DE300601CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3279A30A1E9F6C950022DCC1 /* FZScannerController.m in Sources */,
+				3279A3071E9F6C950022DCC1 /* FZScanerCardViewController.m in Sources */,
+				3299D63D1E569DE300601CD7 /* ViewController.m in Sources */,
+				3279A30C1E9F6C950022DCC1 /* FZScannerViewController.m in Sources */,
+				3279A3091E9F6C950022DCC1 /* FZScannerBorder.m in Sources */,
+				3299D63A1E569DE300601CD7 /* AppDelegate.m in Sources */,
+				3279A3081E9F6C950022DCC1 /* FZScanner.m in Sources */,
+				3299D6371E569DE300601CD7 /* main.m in Sources */,
+				3279A30B1E9F6C950022DCC1 /* FZScannerMaskView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3299D63E1E569DE300601CD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3299D63F1E569DE300601CD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3299D6431E569DE300601CD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3299D6441E569DE300601CD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3299D6471E569DE300601CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3299D6481E569DE300601CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3299D64A1E569DE300601CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8RKD57526R;
+				INFOPLIST_FILE = APP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ulucu.APP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3299D64B1E569DE300601CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8RKD57526R;
+				INFOPLIST_FILE = APP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ulucu.APP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3299D62D1E569DE300601CD7 /* Build configuration list for PBXProject "APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3299D6471E569DE300601CD7 /* Debug */,
+				3299D6481E569DE300601CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3299D6491E569DE300601CD7 /* Build configuration list for PBXNativeTarget "APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3299D64A1E569DE300601CD7 /* Debug */,
+				3299D64B1E569DE300601CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3299D62A1E569DE300601CD7 /* Project object */;
+}
